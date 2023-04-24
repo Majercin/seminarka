@@ -23,7 +23,7 @@
         <ul>
             <li><a class="active" href="">O Nás</a></li>
             <li><a href="#uvod">ÚVOD</a></li>
-            <li><a href="">GALERIE</a></li>
+            <li><a href="#galerie">GALERIE</a></li>
             <li><a href="#formular">FORMULÁŘ</a></li>
             <li><a href="">VLASTNÍ NÁZEV</a></li>
         </ul>
@@ -50,44 +50,73 @@
         </div>
         <br>
         <div class="barva1">
+            
+            <b><span class="text-galerie">GALERIE:</span></b>
+            <div class="galerie" id="galerie">
+                <img src="img/kotel.jpeg" alt="" class="kotel">
+                <img src="img/Ruca-15-pohar(860).jpg" alt="" class="ruca">
+                <img src="img/stridacka.jpeg" alt="" class="hraci">
+                <img src="img/tomek_22-23_1.jpg" alt="" class="tomek">
+                <img src="img/z51_lit_vit_web (1).jpg" alt="" class="vitkovice">
+                <img src="img/pce-lit_03-03-2023_6.jpg" alt="" class="pce">
+            </div>
 
         </div>
-        <form id="formular">
-            <label for="name">Jméno:</label>
-            <input type="text" id="name" name="name" required>
-      
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-      
-            <label for="tel">Telefon:</label>
-            <input type="tel" id="tel" name="tel" required>
-      
-            <label for="message">Zpráva:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-      
-            <label for="newsletter">Přihlásit se k odběru novinek:</label>
-            <input type="checkbox" id="newsletter" name="newsletter" checked>
-      
-            <label for="age">Věk:</label>
-            <input type="number" id="age" name="age" min="18" max="100" required>
-      
-            <label for="gender">Pohlaví:</label>
-            <select id="gender" name="gender" required>
-              <option value="">Vyberte pohlaví</option>
-              <option value="male">Muž</option>
-              <option value="female">Žena</option>
-              <option value="other">Jiné</option>
-            </select>
-      
-            <label for="shirt-size">Velikost trička:</label>
-            <select id="shirt-size" name="shirt-size" required>
-              <option value="">Vyberte velikost trička</option>
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-              <option value="XL">XL</option>
-              <option value="XXL">XXL</option>
-            </select>
-            </form>
+            <div class="obrazek2">
+                
+            </div>
+
+            <!-- ZAČÁTEK FORMULÁŘE -->
+            <form id="formular">
+                <label for="name">Jméno:</label>
+                <input type="text" id="name" name="name" required>
+          
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label for="tel">Telefon:</label>
+                <input type="tel" id="tel" name="tel" required>
+          
+                <label for="message">Zpráva:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+          
+                <label for="newsletter">Přihlásit se k odběru novinek:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+          
+                <label for="age">Věk:</label>
+                <input type="number" id="age" name="age" min="18" max="100" required>
+          
+                <label for="gender">Pohlaví:</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Vyberte pohlaví</option>
+                  <option value="male">Muž</option>
+                  <option value="female">Žena</option>
+                  <option value="other">Jiné</option>
+                </select>
+          
+                <label for="shirt-size">Velikost trička:</label>
+                <select id="shirt-size" name="shirt-size" required>
+                  <option value="">Vyberte velikost trička</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                  <option value="XXL">XXL</option>
+                </select>
+                <label for="hoodie-size">Velikost mikiny:</label>
+                <select id="hoodie-size" name="hoodie-size" required>
+                  <option value="">Vyberte velikost mikiny</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                  <option value="XXL">XXL</option>
+                </select>
+                <p class="odeslat">
+                <br>
+                <input type="submit" name="odeslat" value="Odeslat">
+                </p>
+                </form>
+            <!-- KONEC FORMULÁŘE -->
 </body>
 </html>

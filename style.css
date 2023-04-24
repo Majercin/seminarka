@@ -168,11 +168,13 @@ p{
     }
 }
 
+/* ZAČÁTEK FORMULÁŘE */
+
 form {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffcc00;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
@@ -184,14 +186,14 @@ form {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffcc00;
     border-radius: 5px;
     font-size: 16px;
   }
 
   input[type="submit"] {
-    background-color: #e60000;
-    color: #fff;
+    background-color: #383737;
+    color: #ffcc00;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -200,7 +202,7 @@ form {
   }
 
   input[type="submit"]:hover {
-    background-color: #d40000;
+    background-color: #383737;
   }
 
   label {
@@ -208,3 +210,89 @@ form {
     font-weight: bold;
     margin-bottom: 10px;
   }
+
+    /* KONEC FORMULÁŘE */
+
+  .odeslat{
+    
+  }
+
+/* ZAČÁTEK GALERIE */
+.text-galerie{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.galerie{
+    text-align: center;
+    padding-top: 20px;
+
+    .ruca{
+        height:60vh ;
+        width: 25vw;
+        padding-left: 10px;
+        padding-right: 10px;   
+        border-radius: 15px;
+    }
+    .stridacka{
+        height:60vh ;
+        width: 25vw; 
+        padding-left: 10px;
+        padding-right: 10px;  
+        border-radius: 15px;
+    }
+    .kotel{
+        height:60vh ;
+        width: 25vw;   
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 15px;  
+    }
+    .hraci{
+        height:60vh ;
+        width: 25vw;   
+        padding-left: 10px;
+        padding-right: 10px;  
+        border-radius: 15px;
+    }
+    .vitkovice{
+        height:60vh ;
+        width: 25vw;   
+        padding-left: 10px;
+        padding-right: 10px;  
+        border-radius: 15px;
+        padding-top: 20px;
+    }
+    .pce{
+        height:60vh ;
+        width: 25vw;   
+        padding-left: 10px;
+        padding-right: 10px;  
+        border-radius: 15px;
+        padding-top: 20px;
+    }
+    .tomek{
+        height:60vh ;
+        width: 25vw;   
+        padding-left: 10px;
+        padding-right: 10px;  
+        border-radius: 15px;
+        padding-top: 20px;
+    }
+
+  }
+
+  /* KONEC GALERIE */
+  
+  .obrazek2{
+    background-image:url(img/pozadí2.avif);
+    margin-top: 20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
