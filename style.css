@@ -38,6 +38,7 @@ nav{
     position: fixed;
     display: flex;
     align-items: center;
+    padding: 0 1vh;
       
 }
 
@@ -53,6 +54,7 @@ label.menu{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    padding: 0 1vh;
 }
 nav ul{
     float: right;
@@ -120,6 +122,7 @@ a.active,a:hover{
         background: none;
         color: #383737;
     }
+
 }
 
 .čára{
@@ -185,7 +188,7 @@ form {
   textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #ffcc00;
     border-radius: 5px;
     font-size: 16px;
@@ -194,7 +197,7 @@ form {
   input[type="submit"] {
     background-color: #383737;
     color: #ffcc00;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -219,66 +222,77 @@ form {
 
 /* ZAČÁTEK GALERIE */
 .text-galerie{
-    color: aliceblue;
-    font-size: 30px;
+    color: #ffcc00;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 35px;
     padding-left: 40px;
+    padding-bottom: 20px;
+    background-color: #161616
 }
 
 .galerie{
     text-align: center;
     padding-top: 20px;
+    background-color: #161616;
 
     .ruca{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;
         padding-left: 10px;
         padding-right: 10px;   
         border-radius: 15px;
+        padding-bottom: 15px;
     }
     .stridacka{
-        height:60vh ;
+        height:50vh ;
         width: 25vw; 
         padding-left: 10px;
         padding-right: 10px;  
         border-radius: 15px;
+        padding-bottom: 15px;
     }
     .kotel{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;   
         padding-left: 10px;
         padding-right: 10px;
-        border-radius: 15px;  
+        border-radius: 15px; 
+        padding-bottom: 15px; 
     }
     .hraci{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;   
         padding-left: 10px;
         padding-right: 10px;  
         border-radius: 15px;
+        padding-bottom: 15px;
     }
     .vitkovice{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;   
         padding-left: 10px;
         padding-right: 10px;  
         border-radius: 15px;
         padding-top: 20px;
+        padding-bottom: 15px;
     }
     .pce{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;   
         padding-left: 10px;
         padding-right: 10px;  
         border-radius: 15px;
         padding-top: 20px;
+        padding-bottom: 15px;
     }
     .tomek{
-        height:60vh ;
+        height:50vh ;
         width: 25vw;   
         padding-left: 10px;
         padding-right: 10px;  
         border-radius: 15px;
         padding-top: 20px;
+        padding-bottom: 15px;
     }
 
   }
@@ -286,7 +300,7 @@ form {
   /* KONEC GALERIE */
   
   .obrazek2{
-    background-image:url(img/pozadí2.avif);
+    background-image:url(img/maurice-dt-Hecp8nMJU3A-unsplash.jpg);
     margin-top: 20px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -294,5 +308,36 @@ form {
     background-position: center;
     height: 80vh;
     width: 100vw;
+    margin-bottom: 20px;
   }
 
+  .obrazek3{
+    background-image:url(img/photo-1515703238674-495241e9d6d3.webp);
+    margin-top: 20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .soupiska{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  @media screen and (max-width:1440px) {
+    ul{
+        margin-left: 5vw;
+    }
+  }
+  @media screen and (max-width:1024px) {
+    nav ul li{
+        line-height: 40px;
+    }
+  }

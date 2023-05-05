@@ -51,7 +51,7 @@
         <br>
         <div class="barva1">
             
-            <b><span class="text-galerie">GALERIE:</span></b>
+            <b><div class="text-galerie">GALERIE:</div></b>
             <div class="galerie" id="galerie">
                 <img src="img/kotel.jpeg" alt="" class="kotel">
                 <img src="img/Ruca-15-pohar(860).jpg" alt="" class="ruca">
@@ -63,60 +63,50 @@
 
         </div>
             <div class="obrazek2">
-                
+
             </div>
 
             <!-- ZAČÁTEK FORMULÁŘE -->
-            <form id="formular">
-                <label for="name">Jméno:</label>
-                <input type="text" id="name" name="name" required>
-          
+            <div>
+            <form>
+                <label for="jmeno">Jméno:</label>
+                <input type="text" id="jmeno" name="jmeno" required>
+        
+                <label for="prijmeni">Příjmení:</label>
+                <input type="text" id="prijmeni" name="prijmeni" required>
+        
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
-          
-                <label for="tel">Telefon:</label>
-                <input type="tel" id="tel" name="tel" required>
-          
-                <label for="message">Zpráva:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-          
-                <label for="newsletter">Přihlásit se k odběru novinek:</label>
-                <input type="checkbox" id="newsletter" name="newsletter" checked>
-          
-                <label for="age">Věk:</label>
-                <input type="number" id="age" name="age" min="18" max="100" required>
-          
-                <label for="gender">Pohlaví:</label>
-                <select id="gender" name="gender" required>
-                  <option value="">Vyberte pohlaví</option>
-                  <option value="male">Muž</option>
-                  <option value="female">Žena</option>
-                  <option value="other">Jiné</option>
+        
+                <label for="telefon">Telefon:</label>
+                <input type="text" id="telefon" name="telefon">
+        
+                <label for="typVstupenky">Typ vstupenky:</label>
+                <select id="typVstupenky" name="typVstupenky" required>
+                    <option value="" disabled selected>Vyberte typ vstupenky</option>
+                    <option value="stoji">Stojící místo</option>
+                    <option value="sedici">Sedící místo</option>
+                    <option value="VIP">VIP vstupenka</option>
                 </select>
-          
-                <label for="shirt-size">Velikost trička:</label>
-                <select id="shirt-size" name="shirt-size" required>
-                  <option value="">Vyberte velikost trička</option>
-                  <option value="S">S</option>
-                  <option value="M">M</option>
-                  <option value="L">L</option>
-                  <option value="XL">XL</option>
-                  <option value="XXL">XXL</option>
-                </select>
-                <label for="hoodie-size">Velikost mikiny:</label>
-                <select id="hoodie-size" name="hoodie-size" required>
-                  <option value="">Vyberte velikost mikiny</option>
-                  <option value="S">S</option>
-                  <option value="M">M</option>
-                  <option value="L">L</option>
-                  <option value="XL">XL</option>
-                  <option value="XXL">XXL</option>
-                </select>
+        
+                <label for="pocetVstupenek">Počet vstupenek:</label>
+                <input type="number" id="pocetVstupenek" name="pocetVstupenek" min="1" max="10" required>
+        
+                <label for="datum">Datum zápasu:</label>
+                <input type="date" id="datum" name="datum" required>
+
                 <p class="odeslat">
-                <br>
-                <input type="submit" name="odeslat" value="Odeslat">
-                </p>
-                </form>
+                    <br>
+                    <input type="submit" name="odeslat" value="Odeslat">
+                    </p>
+                </div>
             <!-- KONEC FORMULÁŘE -->
+          
+            <div class="obrazek3"></div>
+
+            <div class="soupiska">
+                <iframe src="https://hcltv.cz/soupiska.asp" frameborder="0"></iframe>
+            </div>
+     
 </body>
 </html>
