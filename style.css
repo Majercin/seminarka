@@ -221,82 +221,33 @@ form {
   }
 
 /* ZAČÁTEK GALERIE */
+
 .text-galerie{
-    color: #ffcc00;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    font-size: 35px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    background-color: #161616
+    background :#ffcc00;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
 }
 
 .galerie{
     text-align: center;
     padding-top: 20px;
     background-color: #161616;
-
-    .ruca{
-        height:50vh ;
-        width: 25vw;
-        padding-left: 10px;
-        padding-right: 10px;   
-        border-radius: 15px;
-        padding-bottom: 15px;
-    }
-    .stridacka{
-        height:50vh ;
-        width: 25vw; 
-        padding-left: 10px;
-        padding-right: 10px;  
-        border-radius: 15px;
-        padding-bottom: 15px;
-    }
-    .kotel{
-        height:50vh ;
-        width: 25vw;   
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 15px; 
-        padding-bottom: 15px; 
-    }
-    .hraci{
-        height:50vh ;
-        width: 25vw;   
-        padding-left: 10px;
-        padding-right: 10px;  
-        border-radius: 15px;
-        padding-bottom: 15px;
-    }
-    .vitkovice{
-        height:50vh ;
-        width: 25vw;   
-        padding-left: 10px;
-        padding-right: 10px;  
-        border-radius: 15px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    .pce{
-        height:50vh ;
-        width: 25vw;   
-        padding-left: 10px;
-        padding-right: 10px;  
-        border-radius: 15px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    .tomek{
-        height:50vh ;
-        width: 25vw;   
-        padding-left: 10px;
-        padding-right: 10px;  
-        border-radius: 15px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-
   }
+  .galerie-img img{
+    width: 25vw;
+    padding: 15px;
+    border-radius: 20px;
+  }
+ .galerie-img{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
+ }
   /* KONEC GALERIE */
   
   .obrazek2{
@@ -323,14 +274,62 @@ form {
     margin-bottom: 20px;
   }
 
-  .soupiska{
-    
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100vw;
-    height: 100vh;
+  .text-soupiska{
+    background :#ffcc00;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
   }
 
+  /* .Tomek{
+    padding-left: 20%;
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+  }
+
+  .Zajicek{
+    padding-left: 30%;
+    width: auto;
+    height: 20vh;
+    border-radius: 10px; */
+
+    .brankari{
+        display: flex;
+        width: 90vw;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .brankari-img{
+        width: 10vw;
+        height: 10vw;
+
+    }
+
+  .obranci{
+    width: 10vw;
+    height: auto;
+  }
+  
+  .text-hraci{
+    color: #ffcc00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 25%;
+  }
+  
+  hr{
+    width: 10% ;
+  }
+
+  h1{
+    
+    
+  }
+  
   @media screen and (max-width:1440px) {
     ul{
         margin-left: 5vw;
