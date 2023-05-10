@@ -1,0 +1,342 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo img{
+    height: 60px;
+    margin-left: 5vw;  
+}
+
+.nadpis1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #383737;
+    font-size: 40px;  
+    margin-left: 3vw;  
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #161616;
+}
+
+nav{
+    background-color: #ffcc00;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 1vh;
+      
+}
+
+ul{
+    margin-left: 30vw;  
+}
+
+label.menu{
+    color: #383737;
+    width: 159px;
+    height: 159px;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    padding: 0 1vh;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #383737;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffcc00;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #383737;
+    }
+
+}
+
+.čára{
+    height: 0,5px;
+    background:#ffcc00 ;
+}
+.vitejte{
+    font-size: 20px;
+}
+
+.text2{
+    text-align: center;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 3%;
+    padding-top: 7%;
+    font-size: 1,2rem;
+}
+
+p{
+    font-size: 1,2rem;
+}
+
+.ONAS{
+    background-image:url(img/matthieu-petiard-W7t3cNm8LXk-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+.barva1{
+    background-color: #383737;
+}
+
+@media screen and (max-width:1440px) {
+    .nadpis1{
+        margin-left: 0;
+    }
+
+    nav{
+
+    }
+}
+
+/* ZAČÁTEK FORMULÁŘE */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffcc00;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #383737;
+    color: #ffcc00;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #383737;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+    /* KONEC FORMULÁŘE */
+
+  .odeslat{
+    
+  }
+
+/* ZAČÁTEK GALERIE */
+
+.text-galerie{
+    background :#ffcc00;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.galerie{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #161616;
+  }
+  .galerie-img img{
+    width: 25vw;
+    padding: 15px;
+    border-radius: 20px;
+  }
+ .galerie-img{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+ }
+  /* KONEC GALERIE */
+  
+  .obrazek2{
+    background-image:url(img/maurice-dt-Hecp8nMJU3A-unsplash.jpg);
+    margin-top: 20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .obrazek3{
+    background-image:url(img/photo-1515703238674-495241e9d6d3.webp);
+    margin-top: 20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .text-soupiska{
+    background :#ffcc00;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+  }
+
+  /* .Tomek{
+    padding-left: 20%;
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+  }
+
+  .Zajicek{
+    padding-left: 30%;
+    width: auto;
+    height: 20vh;
+    border-radius: 10px; */
+
+    .brankari{
+        display: flex;
+        width: 90vw;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .brankari-img{
+        width: 10vw;
+        height: 10vw;
+
+    }
+
+  .obranci{
+    width: 10vw;
+    height: auto;
+  }
+  
+  .text-hraci{
+    color: #ffcc00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 25%;
+  }
+  
+  hr{
+    width: 10% ;
+  }
+
+  h1{
+    
+    
+  }
+  
+  @media screen and (max-width:1440px) {
+    ul{
+        margin-left: 5vw;
+    }
+  }
+  @media screen and (max-width:1024px) {
+    nav ul li{
+        line-height: 40px;
+    }
+  }
