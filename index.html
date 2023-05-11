@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HC Verva Litvínov</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <!-- <div>
@@ -25,10 +27,16 @@
             <li><a href="#uvod">ÚVOD</a></li>
             <li><a href="#galerie">GALERIE</a></li>
             <li><a href="#formular">FORMULÁŘ</a></li>
-            <li><a href="">VLASTNÍ NÁZEV</a></li>
+            <li><a href="#Soupiska">SOUPISKA</a></li>
         </ul>
     </nav>
         
+    <!-- začátek Slider       -->
+    
+    
+    
+      <!-- Konec slider -->
+
         <hr class="čára">
 
         <div class="text2" id="uvod">
@@ -49,11 +57,11 @@
             <img src="" alt="">
         </div>
         <br>
-        <div class="barva1">
-            <div class="pozadi1">
-            <b><div class="text-galerie">GALERIE:</div></b>
+        <div id="galerie">
+            <div class="text-galerie">GALERIE</div>
+            <hr>
             </div>
-            <div class="galerie-img" id="galerie">
+            <div class="galerie-img">
                 <img src="img/kotel.jpeg" alt="" >
                 <img src="img/Ruca-15-pohar(860).jpg" alt="">
                 <img src="img/123.jpg" alt="" >
@@ -104,11 +112,12 @@
             <!-- KONEC FORMULÁŘE -->
           
             <div class="obrazek3"></div>
-
-            <div class="text-soupiska">
-                <b>Soupiska:</b>
+        <div>
+            <div id="Soupiska" class="text-soupiska">
+             Soupiska
             </div>
-
+        </div>
+        <hr>
             <!-- <div class="brankari">
                 <p>
                 <img class="Tomek" src="img/Brankari/Matej Tomek.jpg" alt="">
@@ -183,103 +192,120 @@
 
             </div>
 
-            <div class="obranci">
-                <p>
-                    <b>
-                        <img class="obranci" src="img/Obranci/Baláž.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>26.11.2002</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1></h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Baránek.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>1.3.1995</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Demel.png" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>28.11.1995</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Strejček.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>8.11.1993</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Šalda.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>18.2.1999</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Zeman.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>6.12.2000</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    <img class="obranci" src="img/Obranci/Zile.jpg" alt="">
-                    <div class="text-hraci"> 
-                        <div><h1>24.12.1997</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                
-                    </b>
-                </p>
+            <div class="brankari-text">
+                Obránci
             </div>
-     
+
+               <div class="obranci1">
+
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Baláž.jpg" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+            <div>
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Baránek.jpg" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Demel.png" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+            </div>   
+        </div>   
+            <div class="obranci2">
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Strejček.jpg" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Zeman.jpg" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Zile.jpg" alt="">
+                </div>
+
+                <div class="brankari-text">
+                    <div><h1>24. 5. 1997</h1></div>
+                narozen
+                <hr>
+                <div><h1>191cm</h1></div>
+                výška
+                <hr>
+                <div><h1>82kg</h1></div>
+                váha
+                <hr>
+                </div>
+            </div>
+
+
+            <div>
+                <section class="footer">
+                    <div class="social">
+                        <a href="https://www.instagram.com/hcvlitvinov/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/hcvlitvinov"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/hcvlitvinov"><i class="fab fa-twitter"></i></a>
+
+                    </div>
+                </section>
+            </div>
+
+
 </body>
 </html>
