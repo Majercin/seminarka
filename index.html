@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Java-seminarka.js">
 </head>
 <body>
     <!-- <div>
@@ -23,18 +23,41 @@
         <a href="https://hcltv.cz/"><label class="logo"><img src="img/Logo_HC_VERVA_Litvínov.svg.png" alt=""></label></a>
         <b><label class="nadpis1" for="">HC Verva Litvínov</label></b>
         <ul>
-            <li><a class="active" href="">O Nás</a></li>
+            <li><a class="active" href="">Domů</a></li>
             <li><a href="#uvod">ÚVOD</a></li>
             <li><a href="#galerie">GALERIE</a></li>
-            <li><a href="#formular">FORMULÁŘ</a></li>
             <li><a href="#Soupiska">SOUPISKA</a></li>
+            <li><a href="#formular">KOUPĚ VSTUPENKY</a></li>
         </ul>
     </nav>
         
     <!-- začátek Slider       -->
-    
-    
-    
+<div>   
+    <section class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel-item active">
+                <div class="hero-image" style="background-image: url(img/matthieu-petiard-W7t3cNm8LXk-unsplash.jpg);"></div>
+                <button class="about-btn">Více</button>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-image" style="background-image: url(img/maurice-dt-Hecp8nMJU3A-unsplash.jpg);"></div>
+                <button class="about-btn">Více</button>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-image" style="background-image: url(img/slider/photo-1550585477-a025700d7fce.webp);"></div>
+                <button class="about-btn">Více</button>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-image" style="background-image: url(img/slider/photo-1545471977-94cac22e71ed.webp);"></div>
+                <button class="about-btn">Více</button>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-image" style="background-image: url(img/slider/photo-1515703407324-5f753afd8be8.webp);"></div>
+                <button class="about-btn">Více</button>
+            </div>
+        </div>
+    </section>
+</div>    
       <!-- Konec slider -->
 
         <hr class="čára">
@@ -74,50 +97,384 @@
             <div class="obrazek2">
 
             </div>
-
-            <!-- ZAČÁTEK FORMULÁŘE -->
+            <!-- Začátek Soupiska -->
             <div>
-            <form>
-                <label for="jmeno">Jméno:</label>
-                <input type="text" id="jmeno" name="jmeno" required>
-        
-                <label for="prijmeni">Příjmení:</label>
-                <input type="text" id="prijmeni" name="prijmeni" required>
-        
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="telefon">Telefon:</label>
-                <input type="text" id="telefon" name="telefon">
-        
-                <label for="typVstupenky">Typ vstupenky:</label>
-                <select id="typVstupenky" name="typVstupenky" required>
-                    <option value="" disabled selected>Vyberte typ vstupenky</option>
-                    <option value="stoji">Stojící místo</option>
-                    <option value="sedici">Sedící místo</option>
-                    <option value="VIP">VIP vstupenka</option>
-                </select>
-        
-                <label for="pocetVstupenek">Počet vstupenek:</label>
-                <input type="number" id="pocetVstupenek" name="pocetVstupenek" min="1" max="10" required>
-        
-                <label for="datum">Datum zápasu:</label>
-                <input type="date" id="datum" name="datum" required>
-
-                <p class="odeslat">
-                    <br>
-                    <input type="submit" name="odeslat" value="Odeslat">
-                    </p>
+                <div id="Soupiska" class="text-soupiska">
+                 Soupiska
                 </div>
-            <!-- KONEC FORMULÁŘE -->
-          
-            <div class="obrazek3"></div>
-        <div>
-            <div id="Soupiska" class="text-soupiska">
-             Soupiska
+            </div>
+            <hr>
+
+            <div class="brankari">
+                <div class="Tomek">
+                    <div>
+                        <img class="brankari-img" src="img/Brankari/Matej Tomek.jpg" alt="">
+                    </div>
+                    <div class="brankari-text">
+                        <H1 class="jmeno">Matej Tomek</H1>
+                    <hr>
+                        <div><h1>24. 5. 1997</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>191cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>82kg</h1></div>
+                    váha
+                    <hr>
+                    </div>
+
+                </div>
+
+                <div class="Zajicek">
+                    <div>
+                        <img class="brankari-img" src="img/Brankari/Zajicek.png" alt="">
+                    </div>
+                    <div class="brankari-text">
+                        <H1 class="jmeno">Šimon Zajíček</H1>
+                    <hr>
+                        <div><h1>25. 6. 2001</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>187cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>85kg</h1></div>
+                        váha
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Začátek obranci -->
+            <div class="obranci-text">
+                OBRÁNCI
+            </div>
+
+        <div class="obranci">   
+            <div class="obranci1">
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Baláž.jpg" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Ondřej Baláž</H1>
+                    <hr>
+                    <div><h1>26. 11. 2002</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>182cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>83kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Baránek.jpg" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Marek Baránek</H1>
+                <hr>
+                    <div><h1>1. 3. 1995</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>185cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>88kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+
+                <div>
+                    <img class="obranci-img" src="img/Obranci/Demel.png" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Patrik Demel</H1>
+                <hr>
+                    <div><h1>28. 11. 1995</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>181cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>83kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+            </div>
+
+            <div class="obranci2">
+                <div class="obranci-obrazek">
+                    <img class="obranci-img" src="img/Obranci/Zile.jpg" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Kristaps Zile</H1>
+                <hr>
+                    <div><h1>24. 12. 1997</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>186cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>87kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+
+                <div class="obranci-obrazek">
+                    <img class="obranci-img" src="img/Obranci/Zeman.jpg" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Denis Zeman</H1>
+                <hr>
+                    <div><h1>6. 12. 2000</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>186cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>98kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+
+                <div class="obranci-obrazek">
+                    <img class="obranci-img" src="img/Obranci/Strejček.jpg" alt="">
+                </div>
+                <div class="brankari-text">
+                    <H1 class="jmeno">Jan Strejček</H1>
+                <hr>
+                    <div><h1>8. 11. 1999</h1></div>
+                        narozen
+                        <hr>
+                        <div><h1>185cm</h1></div>
+                        výška
+                        <hr>
+                        <div><h1>93kg</h1></div>
+                        váha
+                        <hr>
+                </div>
+            </div>
+
+        </div> 
+
+        <div class="obranci-text">ÚTOČNÍCI</div>
+
+        <div class="utocnici1">
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Abdul.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Jindřich Abdul</H1>
+                <hr>
+                <div><h1>1. 2. 1996</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>184cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>87kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Berka.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Marek Berka</H1>
+                <hr>
+                <div><h1>22. 1. 2001</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>182cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>78kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Gut.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Michal Gut</H1>
+                <hr>
+                <div><h1>16. 8. 2002</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>182cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>84kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Havelka.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Martin Havelka</H1>
+                <hr>
+                <div><h1>7. 5. 1998</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>185cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>94kg</h1></div>
+                    váha
+                    <hr>
             </div>
         </div>
-        <hr>
+
+        <div class="utocnici2">
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Helt.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Filip Helt</H1>
+                <hr>
+                <div><h1>9. 4. 1998</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>188cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>95kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Jurčík.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Ondřej Jurčík</H1>
+                <hr>
+                <div><h1>28. 6. 1992</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>191cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>98kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Kaše.jpg" alt="">
+            </div>
+
+            <div class="brankari-text">
+                <H1 class="jmeno">David Kaše</H1>
+                <hr>
+                <div><h1>28. 1. 1997</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>180cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>77kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Koblasa.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Petr Koblasa</H1>
+                <hr>
+                <div><h1>7. 11. 1993</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>185cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>97kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+        </div>
+
+        <div class="utocnici3">
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Kudrna.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Andrej Kudrna</H1>
+                <hr>
+                <div><h1>11. 5 .1991</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>188cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>99kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Stehlík.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Lukáš Stehlík</H1>
+                <hr>
+                <div><h1>29. 7. 2002</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>172cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>79kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Sukel.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Matúš Sukeľ</H1>
+                <hr>
+                <div><h1>23. 1. 1996</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>176cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>78kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+            <div class="utocnici-obrazek">
+                <img class="utocnici-img" src="img/Útočníci/Válek.jpg" alt="">
+            </div>
+            <div class="brankari-text">
+                <H1 class="jmeno">Lukáš Válek</H1>
+                <hr>
+                <div><h1>11. 6. 1994</h1></div>
+                    narozen
+                    <hr>
+                    <div><h1>181cm</h1></div>
+                    výška
+                    <hr>
+                    <div><h1>80kg</h1></div>
+                    váha
+                    <hr>
+            </div>
+
+        </div>
+
+        <!-- Konec Soupiska -->
+        
+            <div class="obrazek3"></div>
+
             <!-- <div class="brankari">
                 <p>
                 <img class="Tomek" src="img/Brankari/Matej Tomek.jpg" alt="">
@@ -152,147 +509,46 @@
             </p>
             </div> -->
 
-            <div class="brankari">
-                <div class="Tomek">
-                    <div>
-                        <img class="brankari-img" src="img/Brankari/Matej Tomek.jpg" alt="">
-                    </div>
+            
 
-                    <div class="brankari-text">
-                        <div><h1>24. 5. 1997</h1></div>
-                    narozen
-                    <hr>
-                    <div><h1>191cm</h1></div>
-                    výška
-                    <hr>
-                    <div><h1>82kg</h1></div>
-                    váha
-                    <hr>
-                    </div>
+         <!-- ZAČÁTEK FORMULÁŘE -->
+         <div>
+            <form id="formular">
+                <label for="jmeno">Jméno:</label>
+                <input type="text" id="jmeno" name="jmeno" required>
+        
+                <label for="prijmeni">Příjmení:</label>
+                <input type="text" id="prijmeni" name="prijmeni" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="telefon">Telefon:</label>
+                <input type="text" id="telefon" name="telefon">
+        
+                <label for="typVstupenky">Typ vstupenky:</label>
+                <select id="typVstupenky" name="typVstupenky" required>
+                    <option value="" disabled selected>Vyberte typ vstupenky</option>
+                    <option value="stoji">Stojící místo</option>
+                    <option value="sedici">Sedící místo</option>
+                    <option value="VIP">VIP vstupenka</option>
+                </select>
+        
+                <label for="pocetVstupenek">Počet vstupenek:</label>
+                <input type="number" id="pocetVstupenek" name="pocetVstupenek" min="1" max="10" required>
+        
+                <label for="datum">Datum zápasu:</label>
+                <input type="date" id="datum" name="datum" required>
 
+                <p class="odeslat">
+                    <br>
+                    <input type="submit" name="odeslat" value="Odeslat">
+                    </p>
                 </div>
+            <!-- KONEC FORMULÁŘE -->
+        
 
-                <div class="Zajicek">
-                    <div>
-                        <img class="brankari-img" src="img/Brankari/Zajicek.png" alt="">
-                    </div>
-
-                    <div class="brankari-text">
-                        <div><h1>25. 6. 2001</h1></div>
-                        narozen
-                        <hr>
-                        <div><h1>187cm</h1></div>
-                        výška
-                        <hr>
-                        <div><h1>85kg</h1></div>
-                        váha
-                        <hr>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="brankari-text">
-                Obránci
-            </div>
-
-               <div class="obranci1">
-
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Baláž.jpg" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-            <div>
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Baránek.jpg" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Demel.png" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-            </div>   
-        </div>   
-            <div class="obranci2">
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Strejček.jpg" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Zeman.jpg" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-                <div>
-                    <img class="obranci-img" src="img/Obranci/Zile.jpg" alt="">
-                </div>
-
-                <div class="brankari-text">
-                    <div><h1>24. 5. 1997</h1></div>
-                narozen
-                <hr>
-                <div><h1>191cm</h1></div>
-                výška
-                <hr>
-                <div><h1>82kg</h1></div>
-                váha
-                <hr>
-                </div>
-            </div>
+            
 
 
             <div>
